@@ -33,4 +33,8 @@ public class CalculatorTest {
 	public void testDevide() {
 		assertTrue((5 == (double)calculator.devide(10,2)));
 	}
+	@Test
+	public void testMod() {
+		assertEquals(2, calculator.mod(2,3));
+	}
 }
